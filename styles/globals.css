@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  /* Fonts */
+  --font-sans: var(--font-sans), Inter, system-ui, -apple-system, sans-serif;
+
+  /* Colors */
+  --color-surface: #0b0d11;
+  --color-muted: #6b7280;
+
+  /* Box Shadows */
+  --shadow-subtle: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* Animations & Keyframes */
+  --animate-fadeUp: fadeUp 0.7s ease forwards;
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  @apply bg-surface text-slate-100 antialiased;
+}
+
+::selection {
+  background: rgba(125, 211, 252, 0.25);
+  color: #e5e7eb;
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-semibold text-slate-100;
+  }
+
+  a {
+    @apply text-slate-100 underline decoration-slate-500/60 decoration-2 underline-offset-4 transition hover:decoration-sky-300;
+  }
+}
+
+@layer utilities {
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-400;
+  }
+
+  .fade-up {
+    @apply opacity-100 motion-safe:animate-fadeUp;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .fade-up {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
