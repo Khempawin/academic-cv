@@ -7,8 +7,8 @@ export const siteConfig: ISiteConfig = {
     bio: "My research focus is on Science of Science. The main topic of my current research is automated scientific peer review, where LLMs are trained to analyze manuscripts and generate peer reviews. I'm also interested in Multi-Modal Representation Learning of Scientific concepts and information, which is believed to be the foundation of information comprehension for Artificial Intelligence models. Recently, I have had an interest on research integrity, where I develops techniques to identify research integrity issues in publications such as duplicated values in tables across publications.",
     siteUrl: "https://pawin.io",
     avatar: "/img/profile.png",
-    lastUpdated: "2026-05-14",
-    sourceUrl: "https://github.com/lizhihao2022/personal_page",
+    lastUpdated: "2026-05-21",
+    sourceUrl: "https://github.com/Khempawin/academic-cv",
     location: "[Boulder, Colorado, USA]",
     infoHubUrl: "https://www.colorado.edu/cs/",
     links: {
