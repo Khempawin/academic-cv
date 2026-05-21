@@ -16,8 +16,8 @@ export const siteConfig: ISiteConfig = {
         cv: "/Pawin_Taechoyotin_CV.pdf",
         github: "https://github.com/khempawin",
         scholar: "https://scholar.google.com/citations?user=1Yv3nJkAAAAJ&hl=en",
-        // dblp: "https://dblp.org/pid/407/8482.html",
-        // linkedin: "https://www.linkedin.com/in/pawin-taechoyotin/",
+        dblp: "https://dblp.org/pid/407/8482.html",
+        linkedin: "https://www.linkedin.com/in/pawin-taechoyotin/",
     },
     featuredProjects: [
         // {
