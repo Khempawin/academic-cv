@@ -21,8 +21,8 @@ export function buildMetadata(site: ISiteConfig): Metadata {
       images: [
         {
           url: image,
-          width: 1200,
-          height: 630,
+          width: 685,
+          height: 707,
           alt: `${site.name} Open Graph image`,
         },
       ],
