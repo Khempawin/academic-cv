@@ -32,7 +32,7 @@ export const publicationEntries: IPublicationEntry[] = [
   {
     id: "W2",
     title: "MAMORX: Multi-agent multi-modal scientific review generation with external knowledge",
-    authors: "Pawin Taechoyotin, Guanshao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna",
+    authors: "Pawin Taechoyotin, Guanchao Wang, Tong Zeng, Bradley Sides, Daniel E. Acuna",
     year: 2024,
     venue: "Neurips 2024 Workshop Foundation Models for Science: Progress, Opportunities, and Challenges",
     type: "W",
