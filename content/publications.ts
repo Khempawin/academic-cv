@@ -9,6 +9,7 @@ export const publicationEntries: IPublicationEntry[] = [
     venue: "Preprint",
     type: "P",
     links: [
+      { label: "DOI", href: "https://doi.org/10.48550/arXiv.2604.00248" },
       { label: "arXiv", href: "https://arxiv.org/abs/2604.00248" },
       { label: "GitHub", href: "https://github.com/sciosci/rem-ctx", stars: 0, repo: "sciosci/rem-ctx" }
     ],
@@ -23,6 +24,7 @@ export const publicationEntries: IPublicationEntry[] = [
     venue: "Preprint",
     type: "P",
     links: [
+      { label: "DOI", href: "https://doi.org/10.48550/arXiv.2505.11718" },
       { label: "arXiv", href: "https://arxiv.org/abs/2505.11718" },
       { label: "GitHub", href: "https://github.com/sciosci/remor", stars: 0, repo: "sciosci/remor" }
     ],
