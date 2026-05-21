@@ -45,6 +45,19 @@ export const siteConfig: ISiteConfig = {
         //     cover: "",
         //     tags: [""],
         // },
+        {
+            title: "REMOR: Automated peer review generation with llm reasoning and multi-objective reinforcement learning",
+            authors: "Pawin Taechoyotin, Daniel E. Acuna",
+            venue: "Preprint",
+            year: 2025,
+            links: {
+                doi: "https://doi.org/10.48550/arXiv.2505.11718",
+                arxiv: "https://arxiv.org/abs/2505.11718",
+                code: "https://github.com/sciosci/remor"
+            },
+            cover: "/img/cover/remor_cover_square.png",
+            tags: ["Automated Peer Review", "Reinforcement Learning"], // Optional
+        }
     ],
     resume: {
         education: [
