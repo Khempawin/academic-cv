@@ -10,6 +10,7 @@ export const publicationEntries: IPublicationEntry[] = [
     type: "P",
     links: [
       { label: "arXiv", href: "https://arxiv.org/abs/2604.00248" },
+      { label: "GitHub", href: "https://github.com/sciosci/rem-ctx", stars: 0, repo: "sciosci/rem-ctx" }
     ],
     tags: ["Automated Peer Review", "Reinforcement Learning"], // Optional
     logo: "", // Optional
@@ -23,6 +24,7 @@ export const publicationEntries: IPublicationEntry[] = [
     type: "P",
     links: [
       { label: "arXiv", href: "https://arxiv.org/abs/2505.11718" },
+      { label: "GitHub", href: "https://github.com/sciosci/remor", stars: 0, repo: "sciosci/remor" }
     ],
     tags: ["Automated Peer Review", "Reinforcement Learning"], // Optional
     logo: "", // Optional
@@ -36,6 +38,8 @@ export const publicationEntries: IPublicationEntry[] = [
     type: "W",
     links: [
       { label: "OpenReview", href: "https://openreview.net/forum?id=frvkE8rCfX" },
+      { label: "NeurIPS", href: "https://neurips.cc/virtual/2024/105900" },
+      { label: "GitHub", href: "https://github.com/sciosci/mamorx-review-system", stars: 11, repo: "sciosci/mamorx-review-system" },
     ], 
     tags: ["Multi-agent", "Multi-modal", "Scientific Review"], // Optional
     logo: "", // Optional
@@ -49,6 +53,7 @@ export const publicationEntries: IPublicationEntry[] = [
     type: "W",
     links: [
       { label: "ACL Anthology", href: "https://aclanthology.org/2024.sdp-1.15/" },
+      { label: "GitHub", href: "https://github.com/sciosci/misti", stars: 0, repo: "sciosci/misti" },
     ],
     tags: ["Metadata-Informed", "Scientific Text", "Image Representation"], // Optional
     logo: "", // Optional
